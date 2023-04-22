@@ -11,7 +11,7 @@ Members:
 
 ---
 ### Description:
-This repository contains all deliverable: the Jupyter Notebooks, datasets, images, presentations slide, and the source materials/references we have used and created as part of the Mini Project for SC1015: Introduction to Data Science and AI. 
+This repository contains all deliverables: the Jupyter Notebooks, datasets, images, presentations slide, and the source materials/references we have used and created as part of the Mini Project for SC1015: Introduction to Data Science and AI. 
 
 This README briefly highlights what we have solved in this project. To gain a more comprehensive understanding of our accomplishments and the underlying details, please refer to the Jupyter Notebooks located within this repository.
 
@@ -35,16 +35,16 @@ Which driver will finish in the top position in the Driver’s Championship at t
 **Description**: Within the dataset for Formula 1, there are several CSV files, each of which stores a distinct piece of information related to the sport. These files include circuits.csv, results.csv, and drivers.csv etc. The dataset is frequently updated and contains data spanning from 1950 to the present day. 
 
 ### 2. Data Preparation and Cleaning
-In this section of the project, we prepped and cleaned the dataset to help us analyze our data better and also to help us use our data for the purposes of machine learning in the later sections. 
+In this section of the project, we prepped and cleaned the dataset to help us analyze our data better and to help us use our data for the purposes of machine learning in the later sections. 
 
 We performed the following:
-1. **Feature Selection:** We only select relevant data related to our question, such information as driver description is eliminated. 
+1. **Feature Selection:** We only selected relevant data related to our question, information such as driver description is eliminated. 
 2. **Eliminate Uncompleted Data**: We elimate all uncompleted data in year 2022 and 2023
 3. **Dropping `NaN`s**: All the `NaN` values were dropped or replaced. 
-4. **Feature Engineer**: Because there are a lot of variable, we grab it to some valuable variables such as Age, Winrate. 
+4. **Feature Engineering**: Because there were many variables, we filtered the datasets to obtain more useful valuable variables such as Age, Winrate. 
 
 ### 3. Exploratory Data Analysis
-In this section, we try to investigate and summarize the main characteristics of the dataset to gain understanding of the data and uncover any insights or patterns. In this section, we also apply some visualization technique to make the statistic more meaningful.
+In this section, we investigate and summarize the main characteristics of the dataset to gain understanding of the data and uncover any insights or patterns. In this section, we also apply some visualization technique to make the statistic more meaningful.
 
 <p align="center">
 <img width="905" alt="Box plot" src="images/BoxPlot.png">
@@ -53,14 +53,14 @@ In this section, we try to investigate and summarize the main characteristics of
 For further findings and explanations, please refer to the Jupyter Notebook on EDA.
 
 ### 4. Supervised Method
-Here we utilized three Supervised Methods to predict driver's performance:
+Here we utilized three supervised learning methods to predict driver's performance:
 1. Linear Regression
 2. Polynomial Regression
 3. Deep Neural Multilayer Perceptron
 
 
 ### 5. Unsupervised Method
-Here we utilize unspervised methods to cluster group of driver:
+Here we utilized unsupervised learning methods to cluster group of driver:
 1. Kmeans Cluster
 2. DBSCAN 
 
